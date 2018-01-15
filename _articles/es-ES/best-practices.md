@@ -5,7 +5,7 @@ description: Pensadas para hacerte más fácil la vida como mantenedora de códi
 class: best-practices
 toc:
   what-does-it-mean-to-be-a-maintainer: "¿Qué significa ser un mantenedor/a?"
-  documenting-your-processes: "Documentando tus procesos"
+  documenting-your-processes: "Documentar tus procesos"
   learning-to-say-no: "Aprender a decir no"
   leverage-your-community: "Construir una comunidad provechosa"
   bring-in-the-robots: "Saca a los robots"
@@ -25,8 +25,7 @@ En las etapas iniciales de un proyecto, sueles estar experimentando con nuevas i
 
 Mantener un proyecto exige algo más que código. Implica realizar tareas a menudo inesperadas, pero que son igual de importantes para hacer crecer un proyecto. Hemos reunido unas cuantas maneras de hacerte la vida más fácil, desde procesos de documentación hasta cómo construir una comunidad provechosa.
 
-## Documentando tus procesos
-
+## Documentar tus procesos
 
 Tomar nota de las cosas es una de las tares más importantes que puedes hacer como mantenedor/a.
 

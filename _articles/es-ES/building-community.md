@@ -1,12 +1,12 @@
 ---
-locale: en-US
-title: Building Welcoming Communities
-description: Building a community that encourages people to use, contribute to, and evangelize your project.
+locale: es-ES
+title: Construir una comunidad acogedora
+description: Construir una comunidad que anima a la gente a usar tu proyecto, contribuir, y evangelizar sobre él.
 class: building
 toc:
-  setting-your-project-up-for-success: "Setting your project up for success"
-  growing-your-community: "Growing your community"
-  resolving-conflicts: "Resolving conflicts"
+  setting-your-project-up-for-success: "Preparar tu proyecto para el éxito"
+  growing-your-community: "Hacer crecer tu comunidad"
+  resolving-conflicts: "Resolver conflictos"
 order: 4
 image: /assets/images/cards/building.png
 related:
@@ -14,31 +14,31 @@ related:
   - coc
 ---
 
-## Setting your project up for success
+## Preparar tu proyecto para el éxito
 
-You've launched your project, you're spreading the word, and people are checking it out. Awesome! Now, how do you get them to stick around?
+Has lanzado tu proyecto, estás difundiendo la palabra, y la gente está echándole un ojo. ¡Maravilloso! Ahora, ¿cómo haces que se queden? 
 
-A welcoming community is an investment into your project's future and reputation. If your project is just starting to see its first contributions, start by giving early contributors a positive experience, and make it easy for them to keep coming back.
+Una comunidad acogedora es una inversión en el futuro y la reputación de tu proyecto. Si tu proyecto está empezando a ver sus primeras contribuiciones, empieza por darle a las contribuidoras una experiencia positiva, y haz que les resulte más fácil seguir viniendo.
 
-### Make people feel welcome
+## Haz que la gente se sienta bienvenida
 
-One way to think about your project's community is through what @MikeMcQuaid calls the [contributor funnel](https://speakerdeck.com/mikemcquaid/the-open-source-contributor-funnel):
+Una manera de pensar en la comunidad de tu proyecto es a través de lo que @MikeMcQuaid llama el [embudo de contribuidoras](https://speakerdeck.com/mikemcquaid/the-open-source-contributor-funnel):
 
-![Contributor funnel](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
+![embudo de contribuidoras](/assets/images/building-community/contributor_funnel_mikemcquaid.png)
 
-As you build your community, consider how someone at the top of the funnel (a potential user) might theoretically make their way to the bottom (an active maintainer). Your goal is to reduce friction at each stage of the contributor experience. When people have easy wins, they will feel incentivized to do more.
+A medida que construyes tu comunidad, considera como alguien en la cima del embudo (una usuaria potencial) podría teóricamente abrirse paso hasta el fondo (una mantenedora activa). Tu objetivo es reducir la fricción de cada etapa de la experiencia de una contribuidora. Cuando la gente puede alcanzar logros fáciles, se siente incentivada para hacer más.
 
-Start with your documentation:
+Empieza con tu documentación:
 
-* **Make it easy for someone to use your project.** [A friendly README](../starting-a-project/#writing-a-readme) and clear code examples will make it easier for anyone who lands on your project to get started.
-* **Clearly explain how to contribute**, using [your CONTRIBUTING file](../starting-a-project/#writing-your-contributing-guidelines) and keeping your issues up-to-date.
+* **Facilita que cualquiera pueda usar tu proyecto.** [Un README amigable](../starting-a-project/#writing-a-readme) y ejemplos de código claros harán más faćil empezar a cualquiera que aterrice en tu proyecto.
+* **Explica claramente cómo contribuir**, usando [tu fichero CONTRIBUTING](../starting-a-project/#writing-your-contributing-guidelines) y manteniendo tus _issues_ al día.
 
-[GitHub's 2017 Open Source Survey](http://opensourcesurvey.org/2017/) showed incomplete or confusing documentation is the biggest problem for open source users. Good documentation invites people to interact with your project. Eventually, someone will open an issue or pull request. Use these interactions as opportunities to move them down the funnel.
+[La encuesta de GitHub sobre Código Abierto de 2017](http://opensourcesurvey.org/2017/) mostró que la documentación incompleta o confusa es el mayor problema para usuarias de código abierto. La buena documentación invita a la gente a interactuar con tu proyecto. Eventualmente, alquien abrirá una _issue_ o un _pull request_. Usa estas interacciones como oportunidades para moverlos embudo abajo.
 
-* **When someone new lands on your project, thank them for their interest!** It only takes one negative experience to make someone not want to come back.
-* **Be responsive.** If you don't respond to their issue for a month, chances are, they've already forgotten about your project.
-* **Be open-minded about the types of contributions you'll accept.** Many contributors start with a bug report or small fix. There are [many ways to contribute](../how-to-contribute/#what-it-means-to-contribute) to a project. Let people help how they want to help.
-* **If there's a contribution you disagree with,** thank them for their idea and [explain why](../best-practices/#learning-to-say-no) it doesn't fit into the scope of the project, linking to relevant documentation if you have it.
+* **Cuando alguien nuevo aterriza en tu proyecto, ¡dale las gracias por su interés!** Basta una única experiencia negativa para hacer que alguien no quiera volver.
+* **Sé receptivo.** Si no respondes a su _issue_ durante un mes, hay posibilidades de que se hayan olvidado de tu proyecto..
+* **Sé abierto sobre los tipos de contribuciones que aceptarás.** Muchas contribuidoras empiezan reportando un bug o haciendo un pequeño arreglo. Hay muchas [maneras de contribuir](../how-to-contribute/#what-it-means-to-contribute) a un proyecto. Deja a la gente que ayude como quieran ayudar.
+* **Si hay una contribución con la que no estás de acuerdo,** agradéceles su idea y [explica por qué](../best-practices/#learning-to-say-no) no encaja con el alcance de tu proyecto, enlanzado documentación relevante si la tienes.
 
 <aside markdown="1" class="pquote">
   <img src="https://avatars3.githubusercontent.com/u/579?v=3&s=400" class="pquote-avatar" alt="avatar">
@@ -48,9 +48,11 @@ Start with your documentation:
   </p>
 </aside>
 
-The majority of open source contributors are "casual contributors": people who contribute to a project only occasionally. A casual contributor may not have time to get fully up to speed with your project, so your job is to make it easy for them to contribute.
+> Contribuir al código abierto es más fácil para unas personas que para otras. Hay un montón de miedo a que te chillen por no hacer algo correcto or simplemente por no encajar. (...) Proporcionándole a las contribuidoras un espacio en el que puedan contribuir con muy poca experiencia técnica (documentación, contenido web _markdown_, etc) puede reducir mucho esas preocupaciones.
 
-Encouraging other contributors is an investment in yourself, too. When you empower your biggest fans to run with the work they're excited about, there's less pressure to do everything yourself.
+La mayoría de las contribuidoras de código abierto son "contribuidores casuales": gente que contribuye a un proyecto solo de manera ocasional. Una contribuidora casual puede no tener tiempo para ponerse al día con tu proyecto, así que tu trabajo es facilitarles contribuir.
+
+Animar a otras contribuidoras es una inversión en tí mismo, también. Cuando empoderas a tus mayores fans a hacerse cargo del trabajo que les apetece, hay menos presión para hacerlo todo tú misma.
 
 ### Document everything
 
